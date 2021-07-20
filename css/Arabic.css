@@ -76,11 +76,10 @@
 
 body {
   margin:0;
-
-
 }
 
 section {
+  margin:0;
   display: grid;
   justify-items: center;
 }
@@ -116,12 +115,12 @@ color: #ce202f;;
     position: absolute;
     text-align: center;
   }
-  img {
-    max-width: 100%;
+  #capture img {
+    max-width: 110%;
     max-height: 100%;
   }
   #capture {
-  
+    margin:0;
     position: relative;
     overflow: hidden;
     height: 100%;
