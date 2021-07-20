@@ -126,8 +126,8 @@ color: #ce202f;
     position: absolute;
     text-align: center;
   }
-  img {
-    max-width: 100%;
+  #capture img {
+    max-width: 110%;
     max-height: 100%;
   }
   #capture {
