@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Tajawal:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Tajawal:wght@200;300;400&display=swap');
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 480px) and (min-width: 300px) 
+{
+  #quote__text {
+    top:79% ;
+    right: 34%;
+    text-align: center;
+    font-size: 100%;
+   
+  }
+}
+@media screen and (max-width: 680px) and (min-width:481px) 
+{
+  #quote__text {
+    top:79% ;
+    right: 36%;
+    text-align: center;
+    font-size: 140%;
+   
+  }
+}
+
+@media screen and (max-width: 760px) and (min-width:685px) 
+{
+  #quote__text {
+    top:79% ;
+    right: 38%;
+    text-align: center;
+    font-size: 190%;
+   
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #quote__text {
+    top:79% ;
+    right: 35%;
+    text-align: center;
+    font-size: 200%;
+   
+  }
+
+  }
+
+
+@media screen and (min-width : 1025px) and (max-width : 1300px) {
+  #quote__text {
+    top:79% ;
+    right: 35%;
+    text-align: center;
+    font-size: 270%;
+  }
+
+  }
+
+  @media screen and (min-width : 1301px) {
+
+    #quote__text {
+      top:79% ;
+      right: 34%;
+      text-align: center;
+      font-size: 390%;
+     
+    }
+  
+    }
+
+
+
+
+body {
+  margin:0;
+
+
+}
+
+section {
+  display: grid;
+  justify-items: center;
+}
+h6
+{
+  font-size: 70%;
+}
+#into
+{
+   font-family: 'Open Sans', sans-serif;
+  color: black;
+  padding: 5% 5% 5% 5%;
+}
+#intro h3
+{
+  
+  margin-top: 10px;
+  font-size: 60%;
+  text-align: center;
+color: #ce202f;;
+}
+#intro img
+{
+  width: 20%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  #quote__text {
+    font-family: 'Tajawal', sans-serif;
+    color:#ce202f;
+    position: absolute;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #capture {
+    background-color: burlywood;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  
+  }
+  .input-group.mb-3
+  {
+    margin-top: 10px;
+    width: 85%;
+     font-family: 'Open Sans', sans-serif;
+  }
+  #download
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+     font-family: 'Open Sans', sans-serif;
+  }
+  #render
+  {
+    display: none;
+  }
+
